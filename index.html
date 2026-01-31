@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parakrama Dissanayake | Full Stack Developer & Designer</title>
+    <meta name="description"
+        content="Portfolio of Parakrama Dissanayake, a Full Stack Developer and UI/UX Designer building modern, scalable digital products.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Devicon -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Icons (Phosphor Icons or FontAwesome - using Phosphor for modern look via CDN) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Parakrama<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#works">Works</a>
+                <a href="#contact" class="btn-nav">Contact Me</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <div class="mobile-menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#works">Works</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <!-- Modern Cursor Element -->
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+
+        <!-- Bold Background Text -->
+        <div class="hero-bg-text">
+            <span>THE</span>
+            <span>DEVELOPER</span>
+        </div>
+
+        <div class="container hero-container">
+            <!-- Image (Centered/Bottom) -->
+            <div class="hero-image-container fade-in-up">
+                <div class="image-wrapper-cutout">
+                    <img src="assets/user_profile_cutout.png" alt="Mr. Parakrama Dissanayake"
+                        class="profile-img-cutout">
+                </div>
+            </div>
+
+            <!-- Top Right: Name & Title -->
+            <div class="hero-content-top-right fade-in-up delay-1">
+                <div class="hero-badge">Full Stack Developer & Designer</div>
+                <h1 class="hero-title">Mr. PARAKRAMA<br>DISSANAYAKE</h1>
+            </div>
+
+            <!-- Bottom Left: Description -->
+            <div class="hero-content-bottom-left fade-in-up delay-2">
+                <p class="hero-subtext">
+                    Combining technical power with creative precision to build the exceptional.
+                </p>
+            </div>
+
+            <!-- Bottom Right: CTA Buttons -->
+            <div class="hero-content-bottom-right fade-in-up delay-3">
+                <div class="hero-cta">
+                    <a href="#works" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container about-container">
+                <div class="about-visual">
+                    <div class="exp-anim-container fade-in-up">
+                        <div class="exp-orbit-outer"></div>
+                        <div class="exp-months-ring">
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                            <div class="exp-month-dot"></div>
+                        </div>
+                        <div class="exp-core"></div>
+                        <div class="exp-label">Months Experience</div>
+                    </div>
+                </div>
+                <div class="about-info fade-in-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-bio">
+                        I am a <strong>Full Stack Developer & Designer</strong> with a passion for building clean UI,
+                        functional systems, and complete digital solutions.
+                        With over 12 months of hands-on experience in freelance and personal projects, I bridge the gap
+                        between strong engineering and elegant design.
+                    </p>
+                    <p class="about-bio">
+                        I'm not just efficient; I'm effective. I focus on creating seamless user experiences backed by
+                        robust, scalable code.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-surface">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Technical Expertise</h2>
+                <div class="skills-grid">
+
+                    <!-- Frontend -->
+                    <div class="skill-card fade-in-up delay-1">
+                        <div class="skill-icon"><i class="ph ph-desktop"></i></div>
+                        <h3>Frontend</h3>
+                        <div class="skill-logos">
+                            <div class="logo-item"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                            <div class="logo-item"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                            <div class="logo-item"><i
+                                    class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                            <div class="logo-item"><i class="devicon-react-original colored"></i><span>React</span>
+                            </div>
+                            <div class="logo-item"><i
+                                    class="devicon-tailwindcss-original colored"></i><span>Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-card fade-in-up delay-2">
+                        <div class="skill-icon"><i class="ph ph-database"></i></div>
+                        <h3>Backend</h3>
+                        <div class="skill-logos">
+                            <div class="logo-item"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span>
+                            </div>
+                            <div class="logo-item"><i class="devicon-express-original colored"></i><span>Express</span>
+                            </div>
+                            <div class="logo-item"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span>
+                            </div>
+                            <div class="logo-item"><i
+                                    class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+                            <div class="logo-item"><i class="devicon-firebase-plain colored"></i><span>Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Design & Tools -->
+                    <div class="skill-card fade-in-up delay-3">
+                        <div class="skill-icon"><i class="ph ph-paint-brush"></i></div>
+                        <h3>Design & Tools</h3>
+                        <div class="skill-logos">
+                            <div class="logo-item"><i class="devicon-figma-plain colored"></i><span>Figma</span></div>
+                            <div class="logo-item"><i class="devicon-xd-plain colored"></i><span>Adobe XD</span></div>
+                            <div class="logo-item"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                            <div class="logo-item"><i class="devicon-github-original colored"></i><span>GitHub</span>
+                            </div>
+                            <div class="logo-item"><i class="devicon-vscode-plain colored"></i><span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">My Services</h2>
+                <p class="section-subtitle text-center fade-in-up">Complete digital solutions tailored to your needs.
+                </p>
+
+                <div class="services-grid">
+                    <div class="service-item fade-in-up">
+                        <i class="ph ph-globe service-icon"></i>
+                        <h3>Full Stack Development</h3>
+                        <p>Building comprehensive web applications from database to user interface.</p>
+                    </div>
+                    <div class="service-item fade-in-up delay-1">
+                        <i class="ph ph-layout service-icon"></i>
+                        <h3>Frontend UI Development</h3>
+                        <p>Creating responsive, interactive, and pixel-perfect interfaces.</p>
+                    </div>
+                    <div class="service-item fade-in-up delay-2">
+                        <i class="ph ph-server service-icon"></i>
+                        <h3>Backend & API</h3>
+                        <p>Developing secure, scalable server-side systems and integrations.</p>
+                    </div>
+                    <div class="service-item fade-in-up delay-3">
+                        <i class="ph ph-palette service-icon"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing intuitive and aesthetic user experiences that convert.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works Section -->
+        <section id="works" class="section bg-surface">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Selected Works</h2>
+                <div class="works-grid">
+
+                    <!-- Project 1: Nexus CRM -->
+                    <div class="project-card glass-panel fade-in-up delay-1">
+                        <div class="project-img-wrapper" style="height: 220px; overflow: hidden; position: relative;">
+                            <img src="assets/saas_crm_dashboard.png" alt="Nexus CRM Dashboard" class="project-img"
+                                style="width:100%; height:100%; object-fit:cover; transition: transform 0.5s ease;">
+                            <div class="project-overlay">
+                                <a href="https://refine.dev/" target="_blank" class="btn-icon"
+                                    aria-label="View Project"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Nexus CRM</h3>
+                            <p>Enterprise-grade customer relationship management platform with real-time analytics.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Ant Design</span>
+                                <span>Enterprise</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Vantage Commerce -->
+                    <div class="project-card glass-panel fade-in-up delay-2">
+                        <div class="project-img-wrapper" style="height: 220px; overflow: hidden; position: relative;">
+                            <img src="assets/ecommerce_platform_ui.png" alt="Vantage Commerce" class="project-img"
+                                style="width:100%; height:100%; object-fit:cover; transition: transform 0.5s ease;">
+                            <div class="project-overlay">
+                                <a href="https://demo.vendure.io/" target="_blank" class="btn-icon"
+                                    aria-label="View Project"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Vantage Commerce</h3>
+                            <p>Headless B2B e-commerce solution architected for scalability and performance.</p>
+                            <div class="project-tags">
+                                <span>NestJS</span>
+                                <span>GraphQL</span>
+                                <span>Headless</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: TaskFlow Pro -->
+                    <div class="project-card glass-panel fade-in-up delay-3">
+                        <div class="project-img-wrapper" style="height: 220px; overflow: hidden; position: relative;">
+                            <img src="assets/project_management_ui.png" alt="TaskFlow Pro" class="project-img"
+                                style="width:100%; height:100%; object-fit:cover; transition: transform 0.5s ease;">
+                            <div class="project-overlay">
+                                <a href="https://jira-clone.ivorreic.com/" target="_blank" class="btn-icon"
+                                    aria-label="View Project"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>TaskFlow Pro</h3>
+                            <p>Advanced project management suite featuring Kanban boards and agile workflows.</p>
+                            <div class="project-tags">
+                                <span>TypeScript</span>
+                                <span>Kanban</span>
+                                <span>Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Insight AI -->
+                    <div class="project-card glass-panel fade-in-up delay-3">
+                        <div class="project-img-wrapper" style="height: 220px; overflow: hidden; position: relative;">
+                            <img src="assets/ai_analytics_dashboard.png" alt="Insight AI Analytics" class="project-img"
+                                style="width:100%; height:100%; object-fit:cover; transition: transform 0.5s ease;">
+                            <div class="project-overlay">
+                                <a href="https://demo.tailadmin.com/" target="_blank" class="btn-icon"
+                                    aria-label="View Project"><i class="ph ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Insight AI</h3>
+                            <p>AI-powered data visualization dashboard for predictive business intelligence.</p>
+                            <div class="project-tags">
+                                <span>AI/ML</span>
+                                <span>Data Viz</span>
+                                <span>Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Client Reviews</h2>
+
+                <div class="testimonials-wrapper fade-in-up delay-1">
+                    <div class="testimonials-scroll">
+
+                        <!-- Review 1 -->
+                        <div class="glass-panel testimonial-card-glass">
+                            <div class="review-header">
+                                <div class="review-quote-icon"><i class="ph ph-quotes"></i></div>
+                                <div class="stars">
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                </div>
+                            </div>
+                            <p class="review-text">"Parakrama delivered the project ahead of schedule and the quality
+                                were outstanding. His attention to detail in design is unmatched."</p>
+                            <div class="reviewer-profile">
+                                <div class="reviewer-avatar">S</div>
+                                <div class="reviewer-info">
+                                    <h4>Sarah Jenkins</h4>
+                                    <p>CEO, TechStart Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 2 -->
+                        <div class="glass-panel testimonial-card-glass">
+                            <div class="review-header">
+                                <div class="review-quote-icon"><i class="ph ph-quotes"></i></div>
+                                <div class="stars">
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                </div>
+                            </div>
+                            <p class="review-text">"A true professional. He understood our complex requirements and
+                                built a scalable solution that runs perfectly on all devices."</p>
+                            <div class="reviewer-profile">
+                                <div class="reviewer-avatar">D</div>
+                                <div class="reviewer-info">
+                                    <h4>David Chen</h4>
+                                    <p>PM, FlowSystems</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 3 -->
+                        <div class="glass-panel testimonial-card-glass">
+                            <div class="review-header">
+                                <div class="review-quote-icon"><i class="ph ph-quotes"></i></div>
+                                <div class="stars">
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star-half"></i>
+                                </div>
+                            </div>
+                            <p class="review-text">"The website redesign completely transformed our brand image. We've
+                                seen a 40% increase in conversions since launch!"</p>
+                            <div class="reviewer-profile">
+                                <div class="reviewer-avatar">M</div>
+                                <div class="reviewer-info">
+                                    <h4>Michael Ross</h4>
+                                    <p>Founder, Ross Creative</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 4 (New) -->
+                        <div class="glass-panel testimonial-card-glass">
+                            <div class="review-header">
+                                <div class="review-quote-icon"><i class="ph ph-quotes"></i></div>
+                                <div class="stars">
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                </div>
+                            </div>
+                            <p class="review-text">"Incredible eye for aesthetics. The animations are smooth and the
+                                'Liquid Glass' effect gives our app a premium feel."</p>
+                            <div class="reviewer-profile">
+                                <div class="reviewer-avatar">E</div>
+                                <div class="reviewer-info">
+                                    <h4>Elena Rodriguez</h4>
+                                    <p>CMO, FutureLogic</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review 5 (New) -->
+                        <div class="glass-panel testimonial-card-glass">
+                            <div class="review-header">
+                                <div class="review-quote-icon"><i class="ph ph-quotes"></i></div>
+                                <div class="stars">
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                    <i class="ph-fill ph-star"></i>
+                                </div>
+                            </div>
+                            <p class="review-text">"Fast, reliable, and communicative. Solved our backend optimization
+                                issues in record time. Highly recommended!"</p>
+                            <div class="reviewer-profile">
+                                <div class="reviewer-avatar">J</div>
+                                <div class="reviewer-info">
+                                    <h4>James Carter</h4>
+                                    <p>CTO, DataStream</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery / Visual Section (Optional - kept simple) -->
+        <section class="section bg-surface">
+            <div class="container">
+                <div class="text-center fade-in-up">
+                    <h2 class="section-title">Visual Gallery</h2>
+                    <p class="section-subtitle">A glimpse into my design exploration and creative process.</p>
+                    <!-- Simple grid of abstract visuals using placeholders if needed, or just a marquee? 
+                        Keeping it simple as per prompt instructions. -->
+                    <!-- Grid of visuals: Full color, no grayscale, fully opaque as per user request for better visibility -->
+                    <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+
+
+                        <img src="assets/mobile_finance_ui.png" alt="Futuristic Mobile Finance"
+                            style="width: 300px; height: 200px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); transition: transform 0.3s;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+
+                        <img src="assets/smart_home_ui.png" alt="Smart Home Interface"
+                            style="width: 300px; height: 200px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); transition: transform 0.3s;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+
+                        <img src="assets/media_player_ui.png" alt="Abstract Media Player"
+                            style="width: 300px; height: 200px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); transition: transform 0.3s;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+
+                        <img src="assets/bio_tracking_ui.png" alt="Bio-Tracking Dashboard"
+                            style="width: 300px; height: 200px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); transition: transform 0.3s;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <div class="contact-info fade-in-up">
+                    <div class="contact-header">
+                        <div class="contact-badge">Get in Touch</div>
+                        <h2 class="section-title">Let's Work Together</h2>
+                    </div>
+                    <p class="contact-desc">
+                        Have a project in mind? Looking for a reliable full stack developer?
+                        I'm available for freelance work and open to new opportunities.
+                        Let's build something extraordinary.
+                    </p>
+
+                    <div class="contact-details">
+                        <a href="mailto:parakramadissanayake777@gmail.com" class="contact-card">
+                            <div class="contact-icon"><i class="ph ph-envelope-simple"></i></div>
+                            <div class="contact-text">
+                                <label>Email Me</label>
+                                <span>parakramadissanayake777@gmail.com</span>
+                            </div>
+                        </a>
+
+
+
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="ph ph-map-pin"></i></div>
+                            <div class="contact-text">
+                                <label>Location</label>
+                                <span>Sri Lanka 🇱🇰</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="ph ph-clock"></i></div>
+                            <div class="contact-text">
+                                <label>Working Hours</label>
+                                <span>Every Day, 8am - 10pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <h4>Connect with me</h4>
+                        <div class="social-links-row">
+                            <a href="#" class="social-btn" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                            <a href="#" class="social-btn" aria-label="Dribbble"><i class="ph ph-dribbble-logo"></i></a>
+                            <a href="#" class="social-btn" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper fade-in-up delay-1">
+                    <div class="glass-panel contact-form-panel">
+                        <form id="contact-form">
+                            <h3 class="form-title">Send a Message</h3>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <div class="input-wrapper">
+                                        <i class="ph ph-user input-icon"></i>
+                                        <input type="text" name="user_name" class="form-input" placeholder="Your Name"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <div class="input-wrapper">
+                                        <i class="ph ph-envelope input-icon"></i>
+                                        <input type="email" name="user_email" class="form-input"
+                                            placeholder="your@email.com" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Subject</label>
+                                <div class="input-wrapper">
+                                    <i class="ph ph-chat-circle-text input-icon"></i>
+                                    <input type="text" name="subject" class="form-input" placeholder="Project Inquiry"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea name="message" class="form-textarea"
+                                    placeholder="Tell me about your project..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <span>Send Message</span>
+                                <i class="ph ph-paper-plane-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <!-- Decorative back glow -->
+                    <div class="contact-glow"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">Parakrama<span class="dot">.</span></div>
+            <div class="footer-copy">
+                &copy; 2026 Parakrama Dissanayake. All rights reserved.
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="ph ph-github-logo"></i></a>
+                <a href="#" class="social-link"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="#" class="social-link"><i class="ph ph-dribbble-logo"></i></a>
+                <a href="#" class="social-link"><i class="ph ph-twitter-logo"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
